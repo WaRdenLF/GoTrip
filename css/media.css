@@ -1,0 +1,13 @@
+@media screen and (max-width:712px){
+    .header__wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 8px;
+        margin: 0 auto;
+    }
+
+    .menu{
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+}
