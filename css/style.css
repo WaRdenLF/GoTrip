@@ -1,5 +1,5 @@
 @import url(./fonts.css);
-@import url(./media.css);
+@import url(./media.cssww);
 
 *{
     margin: 0;
@@ -14,9 +14,12 @@ header{
     height: 100px;
 }
 
-
+body{
+    font-family: "Rubik-Regular" , sans-serif;
+    min-width: 1200px;
+}
 .container{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     height: 100%;
@@ -158,6 +161,7 @@ header{
 
 .aboutus__menu{
   display: flex;
+  justify-content: center;
   gap:20px;
   margin-bottom: 97px;
     
@@ -192,6 +196,7 @@ header{
 
 .cards__wrap{
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
